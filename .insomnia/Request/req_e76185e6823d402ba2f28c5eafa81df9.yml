@@ -1,0 +1,30 @@
+_id: req_e76185e6823d402ba2f28c5eafa81df9
+type: Request
+parentId: wrk_a5992156d85543939d4124454f507dba
+modified: 1695235712618
+created: 1695235703640
+url: no funca
+name: New Request
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	jhugu
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695235703640
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
