@@ -1,0 +1,31 @@
+_id: req_bf94d5a750ef41f7b60c506a726b0939
+type: Request
+parentId: fld_71b0531fa8ea4f2a99dd2baa2a167e14
+modified: 1692828991416
+created: 1691038124938
+url: "{{ _.url }}api/authentification/reset_password/"
+name: reset password
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"username": "than",
+    	"password": "none123"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.access }}"
+metaSortKey: -1690823136008.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

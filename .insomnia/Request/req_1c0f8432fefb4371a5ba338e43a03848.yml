@@ -1,0 +1,25 @@
+_id: req_1c0f8432fefb4371a5ba338e43a03848
+type: Request
+parentId: fld_ee05082395fb4bca9768a5a8b5f9d92b
+modified: 1694628119883
+created: 1694628080822
+url: "{{ _.url }}api/configuration/districts/?county_id=1"
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{{ _.access }}"
+metaSortKey: -1694627315877
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,46 @@
+_id: req_e022561cedce42fd9ec2e4da46d5a38d
+type: Request
+parentId: fld_abccddb9e02f4abda339f28dd9914ebe
+modified: 1695055047758
+created: 1694550504678
+url: "{{ _.url }}api/crm_module/dependents_clients/"
+name: CREATE DEPENDENTS
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"names": "Than",
+    	"last_names": "Cordova Rivera",
+    	"member_number": 15830.2,
+    	"date_of_birth": "2000-10-22",
+    	"identification_type": 1, 
+    	"identification_number": "801160417",
+    	"expiration_date_identification": "2024-09-12",
+    	"passport": "BD0801",
+    	"residency_type_id": 1,
+    	"approbation_date": "2023-09-12", 
+    	"phone": "87598739",
+    	"alternative_phone": "89907656",
+    	"email": "jcordova@istmocenter.com",
+    	"alternative_email": "jcordvoa@lgc.cr",
+    	"associated_id": 12289
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{{ _.access }}"
+metaSortKey: -1695055047568
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,32 @@
+_id: req_bc7eff166e9c41c4a860fee8aed7ded1
+type: Request
+parentId: fld_99f36490d4ef4d9f8e3e79efe0e93e30
+modified: 1693594432383
+created: 1691033031788
+url: "{{ _.url }}api/configuration/ccss_status/"
+name: ccss_status POST
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+    	"status": "TEST NUEVO"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_925ad3c69a074b81a251062804edce73
+authentication:
+  type: bearer
+  token: "{{ _.access }}"
+  disabled: false
+metaSortKey: -1690753222052.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,33 @@
+_id: req_cef745479d11414eba63abcda713fe1b
+type: Request
+parentId: fld_4064927a2df14f4b91ff593d7fd1723d
+modified: 1692909922800
+created: 1691440761200
+url: "{{ _.url }}api/configuration/accounts_invoice/"
+name: accounts_invoice
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"code": 100,
+    	"description": "Anuladas"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_b7e22de0719843aca300dd4ea66a0de5
+authentication:
+  type: bearer
+  token: "{{ _.access }}"
+  disabled: false
+metaSortKey: -1690753222052.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

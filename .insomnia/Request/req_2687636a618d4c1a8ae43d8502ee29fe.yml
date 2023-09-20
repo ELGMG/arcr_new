@@ -1,0 +1,23 @@
+_id: req_2687636a618d4c1a8ae43d8502ee29fe
+type: Request
+parentId: fld_8e243e838d094741aad1e0c5ac180889
+modified: 1692828868792
+created: 1691033448671
+url: "{{ _.url }}api/configuration/insurance_policy_types"
+name: insurance_policy_types
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.access }}"
+metaSortKey: -1691032904665
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

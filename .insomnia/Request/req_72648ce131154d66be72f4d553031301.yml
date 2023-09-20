@@ -1,0 +1,47 @@
+_id: req_72648ce131154d66be72f4d553031301
+type: Request
+parentId: fld_2ccedbce852a417b996e375e12623f9b
+modified: 1695055211344
+created: 1694537708569
+url: "{{ _.url }}api/crm_module/clients/"
+name: CREATE CLIENT
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"client_type": 1,
+    	"member_number": 15831,
+    	"names": "Than",
+    	"last_names": "Cordova Rivera",
+    	"date_of_birth": "2000-10-22",
+    	"identification_type": 1, 
+    	"identification_number": "801160417",
+    	"expiration_date_identification": "2024-09-12",
+    	"passport": "BD0801",
+    	"residency_type_id": 2,
+    	"approbation_date": "2023-09-12", 
+    	"phone": "87598739",
+    	"alternative_phone": "89907656",
+    	"email": "jcordova@istmocenter.com",
+    	"alternative_email": "jcordvoa@lgc.cr",
+    	"status_id": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{{ _.access }}"
+metaSortKey: -1694537708569
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

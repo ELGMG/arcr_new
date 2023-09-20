@@ -1,0 +1,25 @@
+_id: req_8f8d532f1ffd4347b74ac302a36d2b95
+type: Request
+parentId: fld_2ccedbce852a417b996e375e12623f9b
+modified: 1694713709539
+created: 1694195025735
+url: "{{ _.url }}api/crm_module/clients/"
+name: CrmClient
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{{ _.access }}"
+metaSortKey: -1694195025735
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

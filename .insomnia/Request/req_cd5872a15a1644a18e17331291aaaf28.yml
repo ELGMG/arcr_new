@@ -1,0 +1,29 @@
+_id: req_cd5872a15a1644a18e17331291aaaf28
+type: Request
+parentId: fld_6a661694d06b4931b7e87bc0d4056e90
+modified: 1695229945553
+created: 1695229933673
+url: http://172.30.209.249:8060/api/crm_module/clients/export_clients
+name: export_clients
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: file_extension
+    value: xlsx
+    disabled: false
+headers:
+  - name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjk1MjI1MzM2LCJpYXQiOjE2OTUyMjQxMzYsImp0aSI6ImY0NjAyMTVmZTZjMzQ3MGI4YjYxM2RiMDE2OTJlZjc1IiwidXNlcl9pZCI6NzF9.SINiJc07e20QkPBclrLNVqULbtIJ63n2J6ou6GEXBG0
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695229933673
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

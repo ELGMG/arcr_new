@@ -1,0 +1,31 @@
+_id: req_8549fcaceb1e435b8343ee8ddda06c47
+type: Request
+parentId: fld_71b0531fa8ea4f2a99dd2baa2a167e14
+modified: 1691040162863
+created: 1691039019953
+url: "{{ _.url
+  }}api/authentification/reset_password/Mg/bscc99-190ca3d1ee984ad5768d35587b4e2\
+  91c/"
+name: reset password email
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"new_password": "none1234", 
+    	"confirm_password": "none1234"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1690788178980.6875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

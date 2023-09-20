@@ -1,0 +1,24 @@
+_id: req_7e308ee8bcb84daf906a8a00a7658793
+type: Request
+parentId: fld_99f36490d4ef4d9f8e3e79efe0e93e30
+modified: 1693346417576
+created: 1693346412015
+url: "{{ _.url }}api/configuration/ccss_status/1/"
+name: ccss_status DELETE
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.access }}"
+  disabled: false
+metaSortKey: -1690665821236.0938
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

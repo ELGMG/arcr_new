@@ -1,0 +1,32 @@
+_id: req_95f1c9a936f648aaaf7d0839db4f317a
+type: Request
+parentId: fld_dd9189b882574736aba722ef1a18f322
+modified: 1692909907414
+created: 1691427079181
+url: "{{ _.url }}api/configuration/residency_types/"
+name: residency_types
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"residency_type": "TEST DE TYPE"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_b7e22de0719843aca300dd4ea66a0de5
+authentication:
+  type: bearer
+  token: "{{ _.access }}"
+  disabled: false
+metaSortKey: -1690753222052.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

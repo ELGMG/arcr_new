@@ -1,0 +1,23 @@
+_id: req_cf9b775a842e4cbb8bbade0fdfdec836
+type: Request
+parentId: fld_0ce6b24fe1a5435a850e24fe2fe6532a
+modified: 1692828935122
+created: 1692291017268
+url: "{{ _.url }}api/configuration/ccss_tariff_types/"
+name: ccss_tariff_types
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.access }}"
+metaSortKey: -1691032904665
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

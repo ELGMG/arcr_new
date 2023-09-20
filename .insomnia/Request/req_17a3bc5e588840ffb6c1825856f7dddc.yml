@@ -1,0 +1,37 @@
+_id: req_17a3bc5e588840ffb6c1825856f7dddc
+type: Request
+parentId: fld_2ccedbce852a417b996e375e12623f9b
+modified: 1694647187873
+created: 1694646571683
+url: "{{ _.url }}api/crm_module/clients/sing_up_membership/"
+name: SING UP MEMBERSHIP
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id": 12291,
+    	"membership_price": 60,
+    	"membership_currency": 1,
+    	"start_date_membership": "2023-09-13",
+    	"end_date_membership": "2024-09-13",
+    	"test_de_campo": 223
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{{ _.access }}"
+metaSortKey: -1694280696443.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

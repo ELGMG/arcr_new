@@ -1,0 +1,23 @@
+_id: req_3e1c5f8968d0472e936cb9673c7d6438
+type: Request
+parentId: fld_85ccfac78f6449c6a91ba532408ba0a3
+modified: 1692828878113
+created: 1691034136733
+url: "{{ _.url }}api/configuration/insurance_period_types"
+name: insurance_period_types
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.access }}"
+metaSortKey: -1691032904665
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

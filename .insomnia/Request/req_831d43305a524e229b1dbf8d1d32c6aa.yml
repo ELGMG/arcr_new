@@ -1,0 +1,32 @@
+_id: req_831d43305a524e229b1dbf8d1d32c6aa
+type: Request
+parentId: fld_23a2cda386db41dd8fca62f26e7c3786
+modified: 1692909915230
+created: 1691437935422
+url: "{{ _.url }}api/configuration/residency_document_type/"
+name: residency_document_type
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"residency_status": "TEST DE TYPE"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_b7e22de0719843aca300dd4ea66a0de5
+authentication:
+  type: bearer
+  token: "{{ _.access }}"
+  disabled: false
+metaSortKey: -1690753222052.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

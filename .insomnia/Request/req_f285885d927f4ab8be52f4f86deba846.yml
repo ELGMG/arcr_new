@@ -1,0 +1,23 @@
+_id: req_f285885d927f4ab8be52f4f86deba846
+type: Request
+parentId: fld_dd9189b882574736aba722ef1a18f322
+modified: 1694629770339
+created: 1691427079177
+url: "{{ _.url }}api/configuration/residency_types/select_list"
+name: residency_types
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.access }}"
+metaSortKey: -1691032904665
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

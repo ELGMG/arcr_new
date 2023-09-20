@@ -1,0 +1,29 @@
+_id: req_21761e4a680d44ed99301e48dac28626
+type: Request
+parentId: fld_71b0531fa8ea4f2a99dd2baa2a167e14
+modified: 1695234506846
+created: 1691037564431
+url: "{{ _.url }}api/token/"
+name: login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"username": "root",
+    	"password": "none123"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1690893049965.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

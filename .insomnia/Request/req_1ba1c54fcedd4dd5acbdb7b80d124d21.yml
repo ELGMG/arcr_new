@@ -1,0 +1,31 @@
+_id: req_1ba1c54fcedd4dd5acbdb7b80d124d21
+type: Request
+parentId: fld_33b523ef8dd9499a8aa39b276c8ae327
+modified: 1692909900141
+created: 1692291131705
+url: "{{ _.url }}api/configuration/insurance_payment_methods/"
+name: insurance_payment_methods
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"payment_method": "payment_method"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_bc15872f3c7d4f1fb044fe27ccad2cd3
+authentication:
+  type: bearer
+  token: "{{ _.access }}"
+metaSortKey: -1690753222052.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

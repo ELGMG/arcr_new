@@ -1,0 +1,24 @@
+_id: req_e9a3930ce8514eebade6dc4d77c7eed2
+type: Request
+parentId: fld_4064927a2df14f4b91ff593d7fd1723d
+modified: 1692909925990
+created: 1691440892389
+url: "{{ _.url }}api/configuration/accounts_invoice/1/"
+name: accounts_invoice
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.access }}"
+  disabled: false
+metaSortKey: -1690613380746.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

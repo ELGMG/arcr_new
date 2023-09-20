@@ -1,0 +1,28 @@
+_id: req_cf3bc50487ab45228b400688dea683b6
+type: Request
+parentId: fld_71b0531fa8ea4f2a99dd2baa2a167e14
+modified: 1691040979249
+created: 1691038632526
+url: "{{ _.url }}api/authentification/forgot_password/"
+name: forgot password
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "jcordova@istmocenter.com"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1690788179030.6875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

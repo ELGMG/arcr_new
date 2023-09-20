@@ -1,0 +1,31 @@
+_id: req_4b4a006f97e34013b93a32706747bc1d
+type: Request
+parentId: fld_85ccfac78f6449c6a91ba532408ba0a3
+modified: 1692909897148
+created: 1691034136744
+url: "{{ _.url }}api/configuration/insurance_period_types/"
+name: insurance_period_types
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"period_type": "TEST DE PERIOD"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_bc15872f3c7d4f1fb044fe27ccad2cd3
+authentication:
+  type: bearer
+  token: "{{ _.access }}"
+metaSortKey: -1690753222052.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

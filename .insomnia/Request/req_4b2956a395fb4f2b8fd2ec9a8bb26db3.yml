@@ -1,0 +1,32 @@
+_id: req_4b2956a395fb4f2b8fd2ec9a8bb26db3
+type: Request
+parentId: fld_0ce6b24fe1a5435a850e24fe2fe6532a
+modified: 1692909890907
+created: 1692291017399
+url: "{{ _.url }}api/configuration/ccss_tariff_types/"
+name: ccss_tariff_types
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"tariff_type": "tariff_type"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_925ad3c69a074b81a251062804edce73
+authentication:
+  type: bearer
+  token: "{{ _.access }}"
+  disabled: false
+metaSortKey: -1690753222052.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

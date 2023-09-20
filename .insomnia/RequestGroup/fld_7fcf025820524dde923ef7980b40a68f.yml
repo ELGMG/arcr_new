@@ -1,0 +1,10 @@
+_id: fld_7fcf025820524dde923ef7980b40a68f
+type: RequestGroup
+parentId: wrk_7c3d45f2a579427492417af51dacfa2a
+modified: 1691032884179
+created: 1691032877928
+name: CONFIGURATION
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1691032877928

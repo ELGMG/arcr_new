@@ -1,0 +1,31 @@
+_id: req_a713162db22542e297db9009a0ec01bd
+type: Request
+parentId: fld_8e243e838d094741aad1e0c5ac180889
+modified: 1692909894220
+created: 1691033448684
+url: "{{ _.url }}api/configuration/insurance_policy_types/"
+name: insurance_policy_types
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"policy_type": "TEST DE tipo de poliza"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_9be8ca5dbc00413cbeea1e78248163d1
+authentication:
+  type: bearer
+  token: "{{ _.access }}"
+metaSortKey: -1690753222052.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

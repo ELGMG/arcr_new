@@ -1,0 +1,30 @@
+_id: req_1f208d9637fe45a18df0b369310f2aff
+type: Request
+parentId: fld_71b0531fa8ea4f2a99dd2baa2a167e14
+modified: 1692829012924
+created: 1691040854190
+url: "{{ _.url }}api/authentification/logout/"
+name: logout
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: than
+  password: none123
+metaSortKey: -1690858092987.0625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

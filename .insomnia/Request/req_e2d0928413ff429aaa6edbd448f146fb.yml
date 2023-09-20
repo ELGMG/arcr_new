@@ -1,0 +1,32 @@
+_id: req_e2d0928413ff429aaa6edbd448f146fb
+type: Request
+parentId: fld_99f36490d4ef4d9f8e3e79efe0e93e30
+modified: 1693346392673
+created: 1693346273109
+url: "{{ _.url }}api/configuration/ccss_status/1/"
+name: ccss_status PUT
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |
+    {
+    	"status": "TEST 10"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_925ad3c69a074b81a251062804edce73
+authentication:
+  type: bearer
+  token: "{{ _.access }}"
+  disabled: false
+metaSortKey: -1690718261725.9375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

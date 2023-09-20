@@ -1,0 +1,32 @@
+_id: req_7bdc3d210da94fddb794230fc9e73834
+type: Request
+parentId: fld_f9e9d4e28ee44c61b355157100d3a37b
+modified: 1692909910960
+created: 1691437836359
+url: "{{ _.url }}api/configuration/residency_status/"
+name: residency_status
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"residency_status": "TEST DE TYPE"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_b7e22de0719843aca300dd4ea66a0de5
+authentication:
+  type: bearer
+  token: "{{ _.access }}"
+  disabled: false
+metaSortKey: -1690753222052.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

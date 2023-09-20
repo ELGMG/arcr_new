@@ -1,0 +1,23 @@
+_id: req_a899c4ab09d346228053637816e6a9f3
+type: Request
+parentId: fld_33b523ef8dd9499a8aa39b276c8ae327
+modified: 1692828944208
+created: 1692291131692
+url: "{{ _.url }}api/configuration/insurance_payment_methods"
+name: insurance_payment_methods
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.access }}"
+metaSortKey: -1691032904665
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

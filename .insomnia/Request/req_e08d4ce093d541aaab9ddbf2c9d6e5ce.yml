@@ -1,0 +1,23 @@
+_id: req_e08d4ce093d541aaab9ddbf2c9d6e5ce
+type: Request
+parentId: fld_f9e9d4e28ee44c61b355157100d3a37b
+modified: 1692828898058
+created: 1691437836352
+url: "{{ _.url }}api/configuration/residency_status"
+name: residency_status
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.access }}"
+metaSortKey: -1691032904665
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

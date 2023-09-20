@@ -1,0 +1,26 @@
+_id: req_ef84a7a47d6843dcacb309bed1ab8b34
+type: Request
+parentId: fld_4fb70ccb58f147eba6ed9dbb3247f00b
+modified: 1695231611813
+created: 1695231588420
+url: http://172.30.209.249:8060/api/configuration/users
+name: get user
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjk1MjI1MzM2LCJpYXQiOjE2OTUyMjQxMzYsImp0aSI6ImY0NjAyMTVmZTZjMzQ3MGI4YjYxM2RiMDE2OTJlZjc1IiwidXNlcl9pZCI6NzF9.SINiJc07e20QkPBclrLNVqULbtIJ63n2J6ou6GEXBG0
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695231588420
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

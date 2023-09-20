@@ -1,0 +1,31 @@
+_id: req_4a934dd47e024bff8929cb9eecb92a7b
+type: Request
+parentId: fld_fcebc861a94e403595552de593140bd9
+modified: 1692909903632
+created: 1692291236546
+url: "{{ _.url }}api/configuration/insurance_policy_status/"
+name: insurance_policy_status
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"policy_status": "policy_status"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_bc15872f3c7d4f1fb044fe27ccad2cd3
+authentication:
+  type: bearer
+  token: "{{ _.access }}"
+metaSortKey: -1690753222052.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

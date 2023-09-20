@@ -1,0 +1,32 @@
+_id: req_8586e10fd790436f8f680ceeee0a89af
+type: Request
+parentId: fld_71b0531fa8ea4f2a99dd2baa2a167e14
+modified: 1691080243087
+created: 1691037231660
+url: "{{ _.url }}api/authentification/register/"
+name: register
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"username": "than",
+    	"email": "jcordova@istmocenter.com",
+    	"password": "Jcordova2021*",
+    	"first_name": "Jonathan", 
+    	"last_name": "Cordova"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1691032877878
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

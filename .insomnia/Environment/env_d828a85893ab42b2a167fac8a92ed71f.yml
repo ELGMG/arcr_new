@@ -1,0 +1,19 @@
+_id: env_d828a85893ab42b2a167fac8a92ed71f
+type: Environment
+parentId: wrk_7c3d45f2a579427492417af51dacfa2a
+modified: 1695234488758
+created: 1691032711563
+name: Base Environment
+data:
+  url: http://172.30.209.249:8060/
+  url_server: http://192.168.3.250:8060/
+  access: "{% response 'body', 'req_39228c4786b840fc902e4ee853f6144d',
+    'b64::JC5hY2Nlc3M=::46b', 'never', 60 %}"
+dataPropertyOrder:
+  "&":
+    - url
+    - url_server
+    - access
+color: null
+isPrivate: false
+metaSortKey: 1691032711563
